@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float Examples</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1200px;
+            height: 100vh;
+            margin: 20px auto;
+            border: 5px dashed red;
+        }
+        .card1, .card2{
+            width:400px;
+            border: 5px solid rgb(0, 255, 26);
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .image{
+            width: 150px;
+            height: 150px;
+            float:left;
+            padding: 5px;
+        }
+        .float-left {
+            float:left;
+
+        }
+        .float-right{
+            float: right;
+        }
+        .row-class {
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- card-1-->
+         <div class="card1 float-left">
+            <img class="image" src="bmw.jpg" alt="car">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos rem sit velit eaque, aperiam debitis. Saepe ducimus optio itaque? A nulla quod recusandae fugiat? Ab nihil voluptas est voluptatum, magnam iusto, vel harum voluptatibus ut quibusdam rem repellat suscipit quos molestias voluptatem culpa veritatis natus! Alias deserunt hic nisi, voluptatibus illo necessitatibus vel quidem, odio ipsum expedita amet nulla nostrum. Veritatis quasi culpa velit doloribus nihil recusandae temporibus exercitationem aliquam, facere est fugiat quas reiciendis maxime totam voluptatibus incidunt dignissimos, iste explicabo architecto unde ratione consequatur voluptate. Facere dolores harum, nihil, accusantium vero laudantium totam itaque at odio incidunt error. </p>
+         </div>
+         <!--card2-->
+         <div class="card2 float-right">
+            <img class="image" src="bmw.jpg" alt="car">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos rem sit velit eaque, aperiam debitis. Saepe ducimus optio itaque? A nulla quod recusandae fugiat? Ab nihil voluptas est voluptatum, magnam iusto, vel harum voluptatibus ut quibusdam rem repellat suscipit quos molestias voluptatem culpa veritatis natus! Alias deserunt hic nisi, voluptatibus illo necessitatibus vel quidem, odio ipsum expedita amet nulla nostrum. Veritatis quasi culpa velit doloribus nihil recusandae temporibus exercitationem aliquam, facere est fugiat quas reiciendis maxime totam voluptatibus incidunt dignissimos, iste explicabo architecto unde ratione consequatur voluptate. Facere dolores harum, nihil, accusantium vero laudantium totam itaque at odio incidunt error.</p>
+         </div>
+            <!-- clear property-->
+          <div class="row-class"></div>
+         <!--card3-->
+         <div class="card1 float-left">
+            <img class="image" src="bmw.jpg" alt="car">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos rem sit velit eaque, aperiam debitis. Saepe ducimus optio itaque? A nulla quod recusandae fugiat? Ab nihil voluptas est voluptatum, magnam iusto, vel harum voluptatibus ut quibusdam rem repellat suscipit quos molestias voluptatem culpa veritatis natus! Alias deserunt hic nisi, voluptatibus illo necessitatibus vel quidem, odio ipsum expedita amet nulla nostrum. Veritatis quasi culpa velit doloribus nihil recusandae temporibus exercitationem aliquam, facere est fugiat quas reiciendis maxime totam voluptatibus incidunt dignissimos, iste explicabo architecto unde ratione consequatur voluptate. Facere dolores harum, nihil, accusantium vero laudantium totam itaque at odio incidunt error.</p>
+         </div>
+            <!-- clear property-->
+          <div class="row-class"></div>
+         <!--card4-->
+         <div class="card2 float-right">
+            <img class="image" src="bmw.jpg" alt="car">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos rem sit velit eaque, aperiam debitis. Saepe ducimus optio itaque? A nulla quod recusandae fugiat? Ab nihil voluptas est voluptatum, magnam iusto, vel harum voluptatibus ut quibusdam rem repellat suscipit quos molestias voluptatem culpa veritatis natus! Alias deserunt hic nisi, voluptatibus illo necessitatibus vel quidem, odio ipsum expedita amet nulla nostrum. Veritatis quasi culpa velit doloribus nihil recusandae temporibus exercitationem aliquam, facere est fugiat quas reiciendis maxime totam voluptatibus incidunt dignissimos, iste explicabo architecto unde ratione consequatur voluptate. Facere dolores harum, nihil, accusantium vero laudantium totam itaque at odio incidunt error.</p>
+         </div>
+         <!--card5-->
+         <div class="card1 float-left">
+            <img class="image" src="bmw.jpg" alt="car">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos rem sit velit eaque, aperiam debitis. Saepe ducimus optio itaque? A nulla quod recusandae fugiat? Ab nihil voluptas est voluptatum, magnam iusto, vel harum voluptatibus ut quibusdam rem repellat suscipit quos molestias voluptatem culpa veritatis natus! Alias deserunt hic nisi, voluptatibus illo necessitatibus vel quidem, odio ipsum expedita amet nulla nostrum. Veritatis quasi culpa velit doloribus nihil recusandae temporibus exercitationem aliquam, facere est fugiat quas reiciendis maxime totam voluptatibus incidunt dignissimos, iste explicabo architecto unde ratione consequatur voluptate. Facere dolores harum, nihil, accusantium vero laudantium totam itaque at odio incidunt error.</p>
+         </div>
+         <!--card6-->
+         <div class="card2 float-right">
+            <img class="image" src="bmw.jpg" alt="car">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos rem sit velit eaque, aperiam debitis. Saepe ducimus optio itaque? A nulla quod recusandae fugiat? Ab nihil voluptas est voluptatum, magnam iusto, vel harum voluptatibus ut quibusdam rem repellat suscipit quos molestias voluptatem culpa veritatis natus! Alias deserunt hic nisi, voluptatibus illo necessitatibus vel quidem, odio ipsum expedita amet nulla nostrum. Veritatis quasi culpa velit doloribus nihil recusandae temporibus exercitationem aliquam, facere est fugiat quas reiciendis maxime totam voluptatibus incidunt dignissimos, iste explicabo architecto unde ratione consequatur voluptate. Facere dolores harum, nihil, accusantium vero laudantium totam itaque at odio incidunt error.</p>
+         </div>
+    </div>
+</body>
+</html>

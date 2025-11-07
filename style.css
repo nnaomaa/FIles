@@ -1,0 +1,44 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(245, 243, 243);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+.head {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding: 2em;
+}
+
+
+.para {
+    font-size: 13px;
+    color: gray;
+}
+
+.magazine {
+    background-color: white;
+}
+
+.sidebar {
+    float:right;
+    background-color: lightgray;
+}
+
+.note {
+background-color: darkblue;
+
+}

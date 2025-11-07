@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow Examples</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+
+        }
+            .container {
+            width: 1400px;
+            margin: 20px auto;
+        }
+        .horizontal .negative {
+            width: 400px;
+            height: 200PX;
+            padding: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        .horizontal1 {
+            background-color: rgba(168,55,55,0.3);
+            box-shadow: 10px 20px 3px 5px orange;
+        }
+
+        .negative {
+            background-color: grey;
+            box-shadow: -10px 20px 3px 5px
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Box shadow horizontal and vertical-->
+    <div class="container">
+        <!-- horizontal distance-->
+     <div class="horizontal">
+        <p></p>
+        </div>
+        <!-- box shadow with negative values-->
+
+        <div class="negative"></div>
+     </div>
+</body>
+</html>

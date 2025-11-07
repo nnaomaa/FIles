@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Talk</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family:'Courier New', Courier, monospace;
+            background: linear-gradient(rgb(130, 130, 148))
+        }
+        .container{
+            width:800px;
+            height:400px;
+            margin:40px auto;
+            display:flex;
+            justify-content: center;
+            align-content: center;
+            border-radius: 20px;
+        }
+
+        .header{
+            width:350px;
+            height:350px;
+            background-color: rgb(184, 187, 200);
+            padding:80px;
+            margin-top:20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            align-items: center;
+            gap: 15px;
+            color: rgb(0, 0, 0);
+        }
+
+        .header div {
+            background: rgb(122, 106, 76);
+            font-size: 24px;
+            width: 70px;
+            height: 90px;
+            border-radius: 50%;
+        }
+
+        .services{
+            width:350px;
+            height:350px;
+            background-color: rgb(166, 167, 168);
+            padding:30px;
+             margin-top:20px;
+             text-align: center;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text {
+        display: flex;
+        background: linear-gradient(rgba(82, 3, 3, 0.356), rgb(184, 77, 77));
+        justify-content: center;
+        padding: 10px;
+        margin: 20px;
+        box-shadow: 0px 1px 1px
+        
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+
+        <header class="header">
+            <h1> NFL Talk's</h1>
+            <p> <b>Your place for NFL news</b><p>
+            <div> 🏈📰</div>
+        </header>
+
+        <section class="services">
+            <!--support/services section-->
+            <h2> <b>Get Started:</h2>
+
+        
+            <article> 
+                <div class="text"> 
+                    <p>Rulebook</p>
+                </div>
+
+                <div class="text"> 
+                    <p>Where to Watch</p>
+                </div>
+
+                <div class="text"> 
+                    <p>Teams</p>
+                </div>
+
+                <div class="text"> 
+                    <p>Shop</p>
+                </div>
+
+            </article>
+        
+        </section>
+    </main>
+</body>
+</html>

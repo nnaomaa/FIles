@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo Box Shadow Property</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box1{
+            width: 400px;
+            height: 200px;
+            margin: 80px 100px;
+            background-color: beige;
+            border-left: 11px solid brown;
+            border-radius: 10px;
+            box-shadow: -10px 20px 5px 8px rgba(208, 214, 118,0.6);
+        }
+        .box2{
+            width: 400px;
+            height: 200px;
+            margin: 80px 100px;
+            background-color: rgb(111, 71, 119);
+            border-right: 10px solid rgb(45, 41, 41);
+            border-radius: 10px;
+            box-shadow: 10px -20px 4px 2px rgba(100, 180, 200, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <!--box shadow example 1 blur and spread radius-->
+    <div class="box1"></div>
+
+    <!--box shadow example 2 blur and spread radius-->
+    <div class="box2"></div>
+</body>
+</html>
